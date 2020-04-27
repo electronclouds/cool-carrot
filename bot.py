@@ -10,7 +10,7 @@ TOKEN = 'NzA0MzE3MTA1MTY3NjYzMTU0.Xqbh0A.4396UfNFz91Q258Fq99runPj6hI'
 
 bot = commands.Bot(command_prefix='!')
 
-@command.cooldown(1, 30, command.Bucketype.default)
+@command.cooldown(1, 30, command.Bucketype.guild)
 @bot.command(name='motivate')
 async def bloomer(ctx):
   picture = discord.Embed()
