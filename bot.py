@@ -6,7 +6,7 @@ import csv
 from discord.ext import commands
 
 coolcarrot = 'https://i.imgur.com/0QeqK7b.png'
-TOKEN = 'NzA0MzE3MTA1MTY3NjYzMTU0.Xqbh0A.4396UfNFz91Q258Fq99runPj6hI'
+TOKEN = 'NzA0MzE3MTA1MTY3NjYzMTU0.XqcQ9w.8_LXU1TxC5ks2l0j0spk-2IlgWk'
 
 bot = commands.Bot(command_prefix='!')
 
