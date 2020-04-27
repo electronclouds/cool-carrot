@@ -6,11 +6,10 @@ import csv
 from discord.ext import commands
 
 coolcarrot = 'https://i.imgur.com/0QeqK7b.png'
-TOKEN = 'NzA0MzE3MTA1MTY3NjYzMTU0.XqcQ9w.8_LXU1TxC5ks2l0j0spk-2IlgWk'
+TOKEN = 'NzA0MzE3MTA1MTY3NjYzMTU0.XqcYCw.xxWHIdu-CzC9ugieUpJ0lr-NAqA'
 
 bot = commands.Bot(command_prefix='!')
 
-@command.cooldown(1, 30, command.Bucketype.guild)
 @bot.command(name='motivate')
 async def bloomer(ctx):
   picture = discord.Embed()
