@@ -1,2 +1,2 @@
 # cool-carrot
-this is a discord app which posts inspiration by cool carrot
+A simple discord bot that posts inspirational quotes 
